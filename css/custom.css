@@ -3,9 +3,27 @@
     max-height: 300px;
     margin-top: 100px;
 
+    -moz-box-shadow: 6px 8px 8px rgba(0,0,0,.5);
+    -webkit-box-shadow: 6px 8px 8px rgba(0,0,0,.5);
+    box-shadow: 6px 8px 8px rgba(0,0,0,.5);
+
 }
 
-header .header-custom{
+header{
     padding-bottom: 100px;
+    background-image: url('../img/headers/tile.jpg');
+    background-size: cover;
+}
+
+p.text-faded-bg{
+    text-shadow: 2px 2px 3px rgba(0,0,0,.5);
+}
+
+p.text-faded-bg > a{
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, .5);
+}
+
+.navbar-default.affix{
+        background-color: rgba(200,200,200,1);
 }
 
